@@ -436,7 +436,7 @@ class HybridEquipmentRecommender:
             ]
         ]
 
-"""7. Example usage"""
+"""7. Example usage
 
 if __name__ == "__main__":
     path = "/content/drive/MyDrive/Thesis/equipment_database.csv"
@@ -473,3 +473,4 @@ if __name__ == "__main__":
         print(f"\nQUERY: {q}")
         results = system.search(q, top_k=5)
         print(results.to_string(index=False))
+        """
